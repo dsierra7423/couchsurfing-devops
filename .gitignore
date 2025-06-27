@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars         # si contiene secretos locales
+override.tf              # config personales
+override.tf.json
+
+# Lockfile: ¡se DEBE versionar!
+# !.terraform.lock.hcl
+
+# Service-account keys u otros secrets
+sa.json
+*.key.json
+
+# Node / Yarn (si haces mocha, eslint, etc.)
+node_modules/
+dist/
+coverage/
+
+# Docker artefacts
+*.log
+
+# macOS / editor swap
+.DS_Store
+*.swp

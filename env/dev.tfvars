@@ -1,0 +1,5 @@
+project_id = "couchsurfing-1"
+environment="dev"
+region="us-central1"
+zone="us-central1-a"
+db_password="SuperSecretDB"
